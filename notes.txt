@@ -1,0 +1,9 @@
+     ------Syntax of java----
+Javascript is case senstitive.
+New line for new statement and semicolon for all statements.
+for comments  1-single line comment  //
+            2-Multiline comment   /*    */ 
+Javascript runs from   top to bottom
+
+
+variable need?  to store data we need variable.
