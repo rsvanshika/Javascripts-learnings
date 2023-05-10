@@ -6,7 +6,7 @@ window events- scroll ,resize,hashchange,load,unload
 
 */
 function paraclicked(){
-    document.getElementById("abc").setAttribute("style","color:blue")
+    document.getElementById("abc").setAttribute("style","background-color:yellow")
 }
 
 document.getElementById("abc").addEventListener("click",paraclicked)

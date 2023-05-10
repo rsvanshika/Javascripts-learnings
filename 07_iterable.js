@@ -22,3 +22,6 @@ function fun(...arg){
 
 }
 fun(1,2,3)
+
+
+

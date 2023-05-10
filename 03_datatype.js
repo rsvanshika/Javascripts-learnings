@@ -1,4 +1,5 @@
-/*
+/*\
+(primitive)
 number
 null
 string
@@ -6,6 +7,8 @@ symbol
 boolean
 bigInt
 undefined
+(non-primitive)
+object  
 
 
 
@@ -29,6 +32,16 @@ console.log(typeof bool);
 
 let user=null;
 console.log(typeof user);
+
+//object
+const person ={
+    name:"vaani",
+    age:23,
+    isUser:true,
+
+
+}
+console.log(person);
 
 
 

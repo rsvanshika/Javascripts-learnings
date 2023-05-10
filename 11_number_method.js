@@ -12,4 +12,12 @@ Number Properties:
 
 var x=10;
 console.log(x.toString());
+var x="20";
+console.log(typeof x);
+var x=Number("20");
+console.log(typeof x);
+
+
+
+
 
