@@ -1,0 +1,32 @@
+js--> make webpages interactive;
+JavaScript Display Possibilities
+
+Nodejs used to execute js programs(node -v) command on pallete to check for js is installled or not
+JavaScript can "display" data in different ways:
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().
+
+
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+The Object Datatype
+The object data type can contain:
+
+1. An object
+2. An array
+3. A date'
+
+note:
+Javascript numbers are always one type:
+double (64-bit floating point).

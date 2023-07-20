@@ -9,8 +9,8 @@ Template literal ``
 
 -> Using template literal we can add placeholder as ${...}
 */
-let name="Vaani";
+let nam="Vaani";
 const another=
-`hello ${name},
+`hello ${nam},
 this is my first message`
 console.log(another)

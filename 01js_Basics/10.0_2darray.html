@@ -1,0 +1,76 @@
+<!-- Multidimensional array= arrays into arrys -->
+
+<!--
+    var a= [
+    ["Harry","18","male","Bcom"],
+    ["Ram","18","male","Bcom"],
+    ["Hari","18","male","Bcom"],
+    ["Sia","18","male","Bca"],
+
+
+
+
+    
+    ] 
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multidimensional array</title>
+<script>
+    //  var a= [
+    // ["Harry",18,"male","Bcom"],
+    // ["Ram",17,"male","Bcom"],
+    // ["Hari",16,"male","Bcom"],
+    // ["Sia",21,"male","Bca"]
+    // ];
+
+
+    // document.write(a);
+    // //  just print all values
+
+//     //if we want to print value array wise
+//     document.write("<table border='2px'>");
+//     for(var i=0; i<4; i++){
+//         document.write("<tr>")
+//      for(var j=0; j<4; j++){
+        
+//       document.write("<td>"+ a[i][j] + "</td> " );
+//     }
+//     document.write("</tr>")
+
+// }
+
+// document.write("</table>")
+
+var reg = [
+    ["Rollno","Name","Attendance"],
+    [1,"Ria","P"],
+    [2,"Pia","A"],
+    [3,"Sia","P"],
+    [4,"Jia","A"]
+];
+// document.write(reg);
+document.write("<table border='1px' cellspacing='2px'>");
+for(var i=0;i<3;i++)
+{  document.write("<tr>")
+    for(var j=0;j<3;j++){
+        document.write("<td>"+ reg[i][j] + "</td>")
+    }
+  document.write("</tr>")
+   
+}
+document.write("</table>")
+
+</script>
+</head>
+<body>
+    
+    
+</body>
+</html>

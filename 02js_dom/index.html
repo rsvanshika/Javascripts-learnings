@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+      *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+      }
+    
+      #header{
+        background-color: red;
+        padding:20px 20px;
+        color:white;
+      }
+      .nav-items{
+        color: white;
+        background-color: rgb(225, 195, 225);
+       
+      }
+      .nav-items ul{
+        list-style-type: none;
+        overflow: hidden;
+        
+
+      }
+      .nav-items ul li {
+        float:left;
+        
+      }
+      .nav-items ul  li a {
+             display: block;
+              color:black;
+             text-align: center;
+             padding: 14px 16px;
+            text-decoration: none;
+          }
+      #content{
+        padding:20px 20px;
+        margin: 20px;
+        width:90%;
+      }
+
+      #content img{
+        margin: 20px 10px;
+        float:left;
+
+      }
+  
+      #content p{
+        margin:20px 25px;
+      }
+      #sidebar{
+        float:right;
+        position: absolute;
+        width:10%;
+        background-color: aqua;
+        top:123px;
+        right:0px;
+        height:80%;
+        padding:10px 10px;
+      }
+     #sidebar ul{
+       overflow: hidden;
+          }
+      #sidebar ul li{
+        padding: 10px;
+   }
+      #sidebar ul  li a {
+             
+              color:black;
+             text-align: center;
+           
+            text-decoration: none;
+          }
+      .footer{
+        position: fixed;
+        bottom:0px;
+      
+        background-color: blue;
+        width: 100%;
+      padding: 10px ;
+      }
+    
+
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="header" style="border: 2px solid black">
+      <h1> Flowers Information</h1>
+    </div>
+   <div class="nav-items">
+        
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact Us</a></li>
+        
+        </ul>
+    </div>
+    
+    <div id="content" style="background-color: brown;">
+      <h2>Sub Heading</h2>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.ADxbxfNWjCnbsap-1FQZlgHaEo&pid=Api&P=0&h=180" width="200px" alt="flower" class="image1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nesciunt officia nihil quos qui iusto animi maxime explicabo cupiditate magnam autem soluta aliquam corporis itaque in, tempore labore earum quas enim minus totam libero adipisci quidem maiores? Reiciendis similique, officia magnam exercitationem nihil odio non facilis quibusdam quas possimus vel  minus totam libero adipisci quidem maiores? Reiciendis similique, officia magnam exercitationem nihil odio non facilis quibusdam quas possimus vel inventore eos tenetur quidem earum, aut ipsum ipsa nam suscipit minus. Veritatis ipsa alias odio nostrum tempore hic recusandae explicabo autem, incidunt provident, natus, doloribus optio tempora. Reiciendis similique, officia magnam exercitationem nihil odio non facilis quibusdam quas possimus vel inventore eos tenetur quidem earum, aut ipsum ipsa nam suscipit minus. Veritatis ipsa alias odio nostrum tempore hic recusandae explicabo autem, incidunt provident, natus, doloribus optio tempora. 
+
+      </p>
+      <br>
+      <br>
+      <ul id="list">
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+
+
+    </div>
+    <div id="sidebar">
+      <ul>
+        <li> <a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+        
+      </ul>
+    </div>
+    
+    <div class="footer">
+      <p style="text-align: right;"> abc1233@gmail.com </p>
+   
+    </div>
+
+
+  </div>
+ 
+
+
+
+  <script src="/js_dom/04_addEvent.js"> 
+
+  </script>  
+</body>
+</html>

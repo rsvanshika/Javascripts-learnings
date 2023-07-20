@@ -1,0 +1,23 @@
+let keyword-
+
+The let keyword was introduced in ES6 (2015)
+Variables defined with let cannot be Redeclared
+Variables defined with let must be Declared before use
+Variables defined with let have Block Scope
+
+
+        Scope 	Redeclare	Reassign	Hoisted	  Bindsthis
+var  	global      Yes	       Yes	    Yes	      Yes
+let	     block	    No         Yes	    No	         No
+const	block	    No	       No	    No	         No
+
+hoisting -(use variable before declaration)  
+
+const
+Always declare a variable with const when you know that the value should not be changed.
+Use const when you declare:
+
+A new Array
+A new Object
+A new Function
+A new RegExp

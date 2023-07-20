@@ -71,16 +71,47 @@ var make variable global
 
  */
 
- var a1=10;
- if(a1>=10)
- {
-  var b=90; //var has global scope so it can be accessed from anyhwhere
- }
-console.log(b);//  o/p- 90
+//  var a1=10;
+//  if(a1>=10)
+//  {
+//   var b=90; //var has global scope so it can be accessed from anyhwhere
+//  }
+// console.log(b);//  o/p- 90
 
-var a2=10;
- if(a2>=10)
- {
-  let b2=90; //let has block scope so it can,t  be accessed outside block
-  }
-console.log(b2); //refrence error:b2 is not defined
+// var a2=10;
+//  if(a2>=10)
+//  {
+//   let b2=90; //let has block scope so it can,t  be accessed outside block
+//   }
+// console.log(b2); //refrence error:b2 is not defined
+
+
+// challenge
+// let year=2020;
+// if(year%4===0){
+//   debbuger;
+//   if(year%100!=0)
+//   {
+//     console.log("true")
+     
+
+//   }
+//   else{
+//     if(year%400==0){
+//       console.log("true")
+//     }
+//     else{
+//       console.log("true")
+//     }
+//     console.log("false")
+//   }}
+//   else{
+//     console.log("false")
+//   }
+
+// ternary operator:
+
+var a= 10;
+ var b=20;
+ var ans= (a>b)?a:b;
+ console.log(ans)
