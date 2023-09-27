@@ -5,4 +5,4 @@
 
  var iAmStandBy;   //when no value is assigned
  console.log(iAmStandBy);
- console.log(typeof iAmStandBy); //unefined
+ console.log(typeof iAmStandBy); //undefined

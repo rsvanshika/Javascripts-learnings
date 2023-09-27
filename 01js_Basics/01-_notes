@@ -8,7 +8,7 @@ Variables defined with let have Block Scope
 
         Scope 	Redeclare	Reassign	Hoisted	  Bindsthis
 var  	global      Yes	       Yes	    Yes	      Yes
-let	     block	    No         Yes	    No	         No
+let	 block	    No         Yes	    No	         No
 const	block	    No	       No	    No	         No
 
 hoisting -(use variable before declaration)  
