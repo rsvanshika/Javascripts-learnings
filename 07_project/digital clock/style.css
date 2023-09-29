@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: #212121;
+}
+
+.container{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:300px;
+}
+#banner{
+    font-size: 2rem;
+    width: 100%;
+
+}
+
+#clock{
+    width:150px;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #7ee715;
+    border: 1px solid#212121;
+    border-radius: 8px;
+    color: black;
+    font-size: 1.5rem;
+    padding-top:0.4rem;
+    font-weight: 400;
+}
