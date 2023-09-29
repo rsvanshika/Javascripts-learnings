@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/fitness-concept-with-copy-space_23-2148531442.jpg?w=1380&t=st=1695979335~exp=1695979935~hmac=472b975d3d4988ebab6c7945a03abccb74c707435d7fcbb4396a772ee182dd29");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+max-width:50%;
+margin: auto;
+margin-top: 4rem;
+border:2px solid #212121;
+height: 90vh;
+background-color:#dad8df;
+
+}  
+
+h1,h3{
+    text-align: center;
+    margin:3rem 0;
+    font-weight: 800;
+    font-size: 3 rem;
+    
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.6rem 0.8rem;
+}
+
+input{
+    font-size: 1.2rem;
+    border: none;
+    
+    
+}
+button{
+    margin:2rem 4rem;
+    width:60%;
+    
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#result{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:gray;
+    color: aliceblue;
+
+}
+
+table{
+    width:80%;
+    margin: auto;
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid grey;
+    padding: .2rem;
+    font-weight: 600;
+}
+
+
