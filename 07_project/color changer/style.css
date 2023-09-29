@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.canvas{
+    width: 80%;
+    margin: auto;
+    
+
+}
+h1{
+    margin-top:5rem;
+    text-align: center;
+    border: 2px solid grey;
+    background-image: linear-gradient(180deg,grey,white, yellow,blue);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.button{
+    margin: 1rem;
+    max-width:20%;
+   
+    padding: 4rem;
+    border: 2px solid #212121 ;
+}
+#grey{
+    background-color: grey
+;
+
+}
+#white{
+    background-color: #fff;
+}
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: purple;
+}

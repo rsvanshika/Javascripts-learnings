@@ -25,5 +25,11 @@ var b=20;
 //++a -> first increment and assign
 console.log(a++); //memory=11 otput:10
 
+
 console.log(++a);//otput:12 memory=12
 
+
+// ---------------------------------------
+
+
+console.log(1+"1") //' l to r

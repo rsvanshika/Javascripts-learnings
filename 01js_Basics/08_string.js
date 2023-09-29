@@ -1,3 +1,34 @@
+const name="Vanshika";
+const repoCount=50;
+// console.log(name[0])
+
+// console.log(name + repoCount +" Value") //Vanshika50  Value  not recommende
+
+
+
+// // String interpolation
+// let nam="Vaani";
+
+// const another=
+// `hello ${nam},
+// this is my first message`
+// console.log(another);
+
+
+// const gameName = new String("Vnasthidd"); //store as keyvalue pair
+
+// console.log(gameName[0]); //v
+// console.log(gameName.length) //9
+
+
+
+
+
+
+
+
+
+
 /*
 1.Substring- return the portion of string 
  string.substring(start,end)
@@ -68,54 +99,55 @@ let wel="welcome to javascript code";
 
 
 
-*/
-let mystring="Hello,welcome to my world";
-let result=mystring.startsWith("Hello");
-console.log(result);
-result=mystring.endsWith("d");
-console.log(result);
-// ---search---
-result=mystring.search("welcome");
-console.log(result);
-
-//  -------split string into array----
-
-var words = mystring.split(" "); // word ny word
-console.log(words);
-
-console.log( mystring.split("")); //character by character
-
-// 
-
-
-
-
+// */
 // let mystring="Hello,welcome to my world";
+// let result=mystring.startsWith("Hello");
+// console.log(result);
+// result=mystring.endsWith("d");
+// console.log(result);
+// // ---search---
+// result=mystring.search("welcome");
+// console.log(result);
+
+// //  -------split string into array----
+
+// var words = mystring.split(" "); // word ny word
+// console.log(words);
+
+// console.log( mystring.split("")); //character by character
+
+// // 
+
+
+
+
+let mystring="Hello,welcome to my world";
 // ----use of match--- 
 //if you want to get the substring
 var res = mystring.match("to"); 
-// console.log(res) // return 
-// [
-//     'to',
-//     index: 14,
-//     input: 'Hello,welcome to my world',
-//     groups: undefined
-//   ]
+console.log(res) ;
+// return 
+// // [
+// //     'to',
+// //     index: 14,
+// //     input: 'Hello,welcome to my world',
+// //     groups: undefined
+// //   ]
 var regularExpression = /to/g;
 
 
-// ------regular expression----(used for pattern matching)
-// syntax 
-//  var varname= /msg/(g/gi)  g-case sensitive gi-case insensitive
+// // ------regular expression----(used for pattern matching)
+// // syntax 
+// //  var varname= /msg/(g/gi)  g-case sensitive gi-case insensitive
 
 var updatedsentence =mystring.match(regularExpression);
 
-console.log(updatedsentence)
+console.log(updatedsentence);
 
-var numst="This is 2345 the number given in 40858928 the string means sample 84925502 45322 "
+var numstr="This is 2345 the number given in 40858928 the string means sample 84925502 45322 "
 
 var redEx= /[0-4]+/g; //to give range
-var ans =numst.match(redEx);
+var ans =numstr.match(redEx);
 console.log(ans)
 
 

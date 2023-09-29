@@ -17,6 +17,8 @@ a.pop();
 console.log(a);//[ 'sia', 'sanjay', 'ram', 'ajay' ]
 
 
+
+
 //delete in the start
 a.shift();
 console.log(a); //[ 'sanjay', 'ram', 'ajay' ]
@@ -120,3 +122,16 @@ arr.forEach(function loop(value,index){
 // ram 1
 // cat 2
 // neha 3
+
+// to convert into array usimg from
+
+console.log(Array.from("hitesh"));  
+//[ 'h', 'i', 't', 'e', 's', 'h' ]
+
+console.log(Array.from({name:"Hitesh"}));   //make empty array
+
+
+let score1=100;
+let score2=200;
+
+console.log(Array.of(score1,score2));   //[ 100, 200 ]

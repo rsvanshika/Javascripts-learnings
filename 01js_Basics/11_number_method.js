@@ -34,14 +34,28 @@ console.log(Number.isFinite())//false
 var d=100;
 console.log(Number.isInteger(d))//true
 
-//toFixed
+//toFixed (used in ecom app)
 
 var e=34.22344;
 console.log(e.toFixed(2));//34.22
 
-var f=34.4562;
-console.log(f.toFixed(2)); //34.46
+// var f=34.4562;
+// console.log(f.toFixed(2)); //34.46
 
 
+// // strictly number
+// const score=new Number(200);
+// console.log(score);
 
+// // toPreficion: to reduce length round offf
+
+const p= 123.8955;
+console.log(p.toPrecision(3)) //124
+
+
+// const hundred =10000000;
+// console.log(hundred.toLocaleString()); //10,000,000(us std)
+// console.log(hundred.toLocaleString('en-IN'));// 1,00,00,000
+
+// console.log(Number.MAX_SAFE_INTEGER)
 

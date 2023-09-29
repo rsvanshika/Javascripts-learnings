@@ -1,9 +1,16 @@
 
 
+// if condition
+
+
+//<,>,<=,>=,==,===,!=,!==
 
 
 
+//if else
 
+
+// else if
 
 
 
@@ -21,43 +28,6 @@ switch(variable){
 
 }
 
-
-
-
-1.for
-a.ForEach--used when each element is parsed
-b.for of-- used for iterable ie.array and string
-c.for in-- used for enumerable ie object  also used for iterable  in which index acts as key
-2.while
-3.do...while
-
-*/
-
-// //for loop
-// var a=1;
-// var b=2;
-// for(var num=0;num<11;num+=2)
-// {
-//     console.log(num);
-// }
-// //for each
-//  var a=[1,2,3,4,5]
-//  a.forEach(item=>console.log(item));
-
-//  //for of
- 
-//  for(var item of a){
-//     console.log(item);
-//  }
-
-//   //for in  (to access index )
- 
-//   for(var item in a){
-//     console.log(item);
-//  }
-
-
- //while
 
 
 
@@ -111,7 +81,65 @@ var make variable global
 
 // ternary operator:
 
+
+//conditoion ? true : false
+
 var a= 10;
  var b=20;
  var ans= (a>b)?a:b;
- console.log(ans)
+
+ 
+
+
+//  false value
+
+// false,0,-0,BigInt 0n,"",null,undefined,NaN
+
+
+// True value
+
+//"0",'false'," ",[],{},function(){}
+
+// to check if array is empty
+
+const userEmail=[];
+
+if(userEmail.length===0){
+    console.log("array is empty")
+}
+
+const emptyObj={};
+
+    if(Object.keys(emptyObj).length===0){
+
+        console.log("object is empty")
+
+    }
+
+
+// important!!!!!!!!!!!!!!
+
+// [---------Nullish Coalescing Operator (??): null  undefined------------]
+
+let val1;
+val1=5??10
+
+console.log(val1)  //5
+
+
+val1=null?? 10;
+
+console.log(val1) //10
+
+
+val1=undefined ?? 15;
+
+console.log(val1) //15
+
+
+val1=null?? 10?? 15;
+
+console.log(val1) //10
+
+
+

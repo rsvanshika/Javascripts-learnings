@@ -21,3 +21,6 @@ A new Array
 A new Object
 A new Function
 A new RegExp
+
+
+"use strict"; treat all js code as newer version
